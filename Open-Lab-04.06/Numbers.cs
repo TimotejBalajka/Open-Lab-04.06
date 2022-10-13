@@ -15,13 +15,13 @@ namespace Open_Lab_04._06
                 }
             }
             int[] evens = new int[count];
-            int t = 0;
+            int count2 = 0;
             for (int x =0; x < numbers.Length; x++)
             {
                 if (numbers[x] % 2 == 0)
                 {
-                    evens[t] = numbers[x];
-                    t++;
+                    evens[count2] = numbers[x];
+                    count2++;
                 }
             }
             return evens;
